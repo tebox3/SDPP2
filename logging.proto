@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+service LoggerService {
+  rpc Log (LogRequest) returns (LogResponse);
+}
+
+message LogRequest {
+  string timestamp = 1;
+  string prefix = 2;
+  string juego = 3;
+  string action = 4;
+  string team_name = 5;
+  string player_name = 6;
+  string roll = 7;
+}
+
+message LogResponse {
+  string status = 1;
+}

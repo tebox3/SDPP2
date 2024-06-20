@@ -4,6 +4,13 @@ import logging
 import random
 import argparse
 import json
+
+import grpc
+import logging_pb2
+import logging_pb2_grpc
+from datetime import datetime
+
+
 app = Flask(__name__)
 configuracion = {}
 board = 0
@@ -13,20 +20,22 @@ board = 0
                     format='%(asctime)s, %(message)s', 
                     datefmt='%m/%d/%Y %I:%M:%S %p') """
 
-
-# Configurar el logger principal para tu aplicación
-app_logger = logging.getLogger('app_logger')
-app_logger.setLevel(logging.INFO)
-
-# Configurar el formato del log
-formatter = logging.Formatter('%(asctime)s, %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p')
-
-# Configurar el handler para escribir en el archivo de log
-file_handler = logging.FileHandler('Log.log', mode='a')
-file_handler.setFormatter(formatter)
-
-# Agregar el handler al logger de la aplicación
-app_logger.addHandler(file_handler)
+def log_message(prefix, juego, action, team_name, player_name,roll):
+    channel = grpc.insecure_channel('localhost:50051')
+    stub = logging_pb2_grpc.LoggerServiceStub(channel)
+    # Obtener la marca de tiempo actual
+    timestamp = datetime.now().strftime('%m/%d/%Y %I:%M:%S %p')
+    # Enviar el mensaje de log al servidor
+    response = stub.Log(logging_pb2.LogRequest(
+        timestamp=timestamp,
+        prefix=prefix,
+        juego=juego,
+        action=action,
+        team_name=team_name,
+        player_name=player_name,
+        roll=roll
+    ))
+    print("Log response: " + response.status)
 
 
 juego='juego1' #Verificar como hacer esto automatico
@@ -94,14 +103,19 @@ def inicio():
     global TEAM_NAME
     global PLAYER_NAME
     global juego
-    app_logger.info('%s, %s, %s, %s', "ini", juego, TEAM_NAME, PLAYER_NAME)
+    print("ENVIANDO LOG INI INICIO-JUEGO")
+    log_message("ini", juego, "Inicio-Juego", TEAM_NAME, PLAYER_NAME, "NULL")
     #logging.info('%s, %s, %s', juego, TEAM_NAME, PLAYER_NAME)
+    print("ENVIANDO LOG INI CREA-JUGADOR")
+    log_message("ini", juego,"Crea-Jugador", TEAM_NAME, PLAYER_NAME, "NULL")
     teams = get_teams()
     print("TEAMS : ",teams)
     #equipo_cliente = random.choice(list(teams.keys()))
     print("SELECTED TEAM: ",TEAM_NAME)
     #print("Equipos desde el servidor: ",equipo_cliente)
     message_join = join_team(TEAM_NAME,PLAYER_NAME)
+    print("ENVIANDO LOG FIN CREA-JUGADOR")
+    log_message("fin", juego,"Crea-Jugador", TEAM_NAME, PLAYER_NAME, "NULL")
     #print(message_join.json()['board'])
     print(message_join['message'])
     board = message_join['board']
@@ -111,15 +125,24 @@ def inicio():
 
 @app.route('/game_ready', methods=['GET'])
 def game_ready_message():
+    print("ENVIANDO LOG INI INICIO-PARTIDA")
+    log_message("ini", juego, "Inicio-Partida", TEAM_NAME, PLAYER_NAME, "NULL")
     print('game ready to start, waiting for your turn')
     return jsonify({'message':'Ready'}) 
 
 @app.route('/your_turn', methods=['GET'])
 def play_turn():
+    print("ENVIANDO LOG INI LANZAR-DADO")
+    log_message("ini", juego, "Lanzar-Dado", TEAM_NAME, PLAYER_NAME, "NULL")
     print("throwing dice...")
     response = roll_dice()
     print("Number obtained: ", response['value'])
     print("Total of your team: ", response['total team'])
+    print("ENVIANDO LOG FIN LANZAR-DADO")
+    print("Tipo: ",type(response['value']))
+    number=str(response['value'])
+    print("Tipo2: ",type(number))
+    log_message("fin", juego, "Lanzar-Dado", TEAM_NAME, PLAYER_NAME, number)
     return jsonify({'message':'correc throw', 'total team': response['total team']})
 
 @app.route('/game_ended', methods=['POST'])
@@ -127,7 +150,10 @@ def game_ended():
     ganador = request.json['ganador']
     print("The winner is ", ganador)
     print("Thanks for playing!")
-    app_logger.info('%s, %s, %s, %s', "fin", juego, TEAM_NAME, PLAYER_NAME)
+    print("ENVIANDO LOG FIN INICIO-PARTIDA")
+    log_message("fin", juego, "Inicio-Partida", TEAM_NAME, PLAYER_NAME, "NULL")
+    print("ENVIANDO LOG FIN INICIO-JUEGO")
+    log_message("fin", juego, "Inicio-Juego", TEAM_NAME, PLAYER_NAME, "NULL")
     return jsonify({'message':'BYE'}) 
 
 with app.app_context():

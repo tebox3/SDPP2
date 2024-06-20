@@ -1,0 +1,124 @@
+06/19/2024 08:51:42 PM, 06/19/2024 08:51:42 PM, ini, juego1, Team A, Pepito
+06/19/2024 08:54:49 PM, 06/19/2024 08:54:49 PM, ini, juego1, Team A, Pepito, NULL
+06/19/2024 09:08:10 PM, 06/19/2024 09:08:10 PM, ini, juego1, Inicio-Juego, Team B, Claudio
+06/19/2024 09:08:10 PM, 06/19/2024 09:08:10 PM, ini, juego1, Crea-Jugador, Team B, Claudio
+06/19/2024 09:08:15 PM, 06/19/2024 09:08:15 PM, fin, juego1, Crea-Jugador, Team B, Claudio
+06/19/2024 09:08:41 PM, 06/19/2024 09:08:41 PM, ini, juego1, Inicio-Juego, Team B, Francisco
+06/19/2024 09:08:41 PM, 06/19/2024 09:08:41 PM, ini, juego1, Crea-Jugador, Team B, Francisco
+06/19/2024 09:08:45 PM, 06/19/2024 09:08:45 PM, fin, juego1, Crea-Jugador, Team B, Francisco
+06/19/2024 09:09:01 PM, 06/19/2024 09:09:01 PM, ini, juego1, Inicio-Juego, Team A, Pepito
+06/19/2024 09:09:01 PM, 06/19/2024 09:09:01 PM, ini, juego1, Crea-Jugador, Team A, Pepito
+06/19/2024 09:09:05 PM, 06/19/2024 09:09:05 PM, fin, juego1, Crea-Jugador, Team A, Pepito
+06/19/2024 09:09:07 PM, 06/19/2024 09:09:07 PM, ini, juego1, Inicio-Partida, Team B, Claudio
+06/19/2024 09:09:07 PM, 06/19/2024 09:09:07 PM, ini, juego1, Inicio-Partida, Team B, Francisco
+06/19/2024 09:09:07 PM, 06/19/2024 09:09:07 PM, ini, juego1, Inicio-Partida, Team A, Pepito
+06/19/2024 09:09:07 PM, 06/19/2024 09:09:07 PM, ini, juego1, Lanzar-Dado, Team A, Pepito
+06/19/2024 09:09:09 PM, 06/19/2024 09:09:09 PM, ini, juego1, Lanzar-Dado, Team B, Claudio
+06/19/2024 09:09:12 PM, 06/19/2024 09:09:12 PM, ini, juego1, Lanzar-Dado, Team A, Pepito
+06/19/2024 09:09:14 PM, 06/19/2024 09:09:14 PM, ini, juego1, Lanzar-Dado, Team B, Francisco
+06/19/2024 09:09:16 PM, 06/19/2024 09:09:16 PM, ini, juego1, Lanzar-Dado, Team A, Pepito
+06/19/2024 09:09:18 PM, 06/19/2024 09:09:18 PM, ini, juego1, Lanzar-Dado, Team B, Claudio
+06/19/2024 09:09:20 PM, 06/19/2024 09:09:20 PM, ini, juego1, Lanzar-Dado, Team A, Pepito
+06/19/2024 09:12:35 PM, 06/19/2024 09:12:35 PM, ini, juego1, Inicio-Juego, Team B, Francisco
+06/19/2024 09:12:35 PM, 06/19/2024 09:12:35 PM, ini, juego1, Crea-Jugador, Team B, Francisco
+06/19/2024 09:13:55 PM, 06/19/2024 09:13:55 PM, ini, juego1, Inicio-Juego, Team B, Francisco, NULL
+06/19/2024 09:13:55 PM, 06/19/2024 09:13:55 PM, ini, juego1, Crea-Jugador, Team B, Francisco, NULL
+06/19/2024 09:13:59 PM, 06/19/2024 09:13:59 PM, fin, juego1, Crea-Jugador, Team B, Francisco, NULL
+06/19/2024 09:14:10 PM, 06/19/2024 09:14:10 PM, ini, juego1, Inicio-Juego, Team B, Claudio, NULL
+06/19/2024 09:14:10 PM, 06/19/2024 09:14:10 PM, ini, juego1, Crea-Jugador, Team B, Claudio, NULL
+06/19/2024 09:14:14 PM, 06/19/2024 09:14:14 PM, fin, juego1, Crea-Jugador, Team B, Claudio, NULL
+06/19/2024 09:14:16 PM, 06/19/2024 09:14:16 PM, ini, juego1, Inicio-Juego, Team A, Pepito, NULL
+06/19/2024 09:14:16 PM, 06/19/2024 09:14:16 PM, ini, juego1, Crea-Jugador, Team A, Pepito, NULL
+06/19/2024 09:14:20 PM, 06/19/2024 09:14:20 PM, fin, juego1, Crea-Jugador, Team A, Pepito, NULL
+06/19/2024 09:14:22 PM, 06/19/2024 09:14:22 PM, ini, juego1, Inicio-Partida, Team B, Francisco, NULL
+06/19/2024 09:14:22 PM, 06/19/2024 09:14:22 PM, ini, juego1, Inicio-Partida, Team B, Claudio, NULL
+06/19/2024 09:14:23 PM, 06/19/2024 09:14:23 PM, ini, juego1, Inicio-Partida, Team A, Pepito, NULL
+06/19/2024 09:14:23 PM, 06/19/2024 09:14:23 PM, ini, juego1, Lanzar-Dado, Team A, Pepito, NULL
+06/19/2024 09:14:25 PM, 06/19/2024 09:14:25 PM, ini, juego1, Lanzar-Dado, Team B, Francisco, NULL
+06/19/2024 09:14:27 PM, 06/19/2024 09:14:27 PM, ini, juego1, Lanzar-Dado, Team A, Pepito, NULL
+06/19/2024 09:45:27 PM, 06/19/2024 09:45:27 PM, ini, juego1, Inicio-Juego, Team B, Francisco, NULL
+06/19/2024 09:45:27 PM, 06/19/2024 09:45:27 PM, ini, juego1, Crea-Jugador, Team B, Francisco, NULL
+06/19/2024 09:45:28 PM, 06/19/2024 09:45:28 PM, ini, juego1, Inicio-Juego, Team B, Claudio, NULL
+06/19/2024 09:45:28 PM, 06/19/2024 09:45:28 PM, ini, juego1, Crea-Jugador, Team B, Claudio, NULL
+06/19/2024 09:45:31 PM, 06/19/2024 09:45:31 PM, fin, juego1, Crea-Jugador, Team B, Francisco, NULL
+06/19/2024 09:45:32 PM, 06/19/2024 09:45:32 PM, fin, juego1, Crea-Jugador, Team B, Claudio, NULL
+06/19/2024 09:45:33 PM, 06/19/2024 09:45:33 PM, ini, juego1, Inicio-Juego, Team A, Pepito, NULL
+06/19/2024 09:45:33 PM, 06/19/2024 09:45:33 PM, ini, juego1, Crea-Jugador, Team A, Pepito, NULL
+06/19/2024 09:45:37 PM, 06/19/2024 09:45:37 PM, fin, juego1, Crea-Jugador, Team A, Pepito, NULL
+06/19/2024 09:45:39 PM, 06/19/2024 09:45:39 PM, ini, juego1, Inicio-Partida, Team B, Francisco, NULL
+06/19/2024 09:45:39 PM, 06/19/2024 09:45:39 PM, ini, juego1, Inicio-Partida, Team B, Claudio, NULL
+06/19/2024 09:45:40 PM, 06/19/2024 09:45:40 PM, ini, juego1, Inicio-Partida, Team A, Pepito, NULL
+06/19/2024 09:45:40 PM, 06/19/2024 09:45:40 PM, ini, juego1, Lanzar-Dado, Team A, Pepito, NULL
+06/19/2024 09:45:42 PM, 06/19/2024 09:45:42 PM, ini, juego1, Lanzar-Dado, Team B, Claudio, NULL
+06/19/2024 09:45:44 PM, 06/19/2024 09:45:44 PM, ini, juego1, Lanzar-Dado, Team A, Pepito, NULL
+06/19/2024 09:45:46 PM, 06/19/2024 09:45:46 PM, ini, juego1, Lanzar-Dado, Team B, Francisco, NULL
+06/19/2024 09:45:48 PM, 06/19/2024 09:45:48 PM, ini, juego1, Lanzar-Dado, Team A, Pepito, NULL
+06/19/2024 09:45:50 PM, 06/19/2024 09:45:50 PM, fin, juego1, Inicio-Partida, Team B, Francisco, NULL
+06/19/2024 09:45:50 PM, 06/19/2024 09:45:50 PM, fin, juego1, Inicio-Juego, Team B, Francisco, NULL
+06/19/2024 09:45:50 PM, 06/19/2024 09:45:50 PM, fin, juego1, Inicio-Partida, Team B, Claudio, NULL
+06/19/2024 09:45:50 PM, 06/19/2024 09:45:50 PM, fin, juego1, Inicio-Juego, Team B, Claudio, NULL
+06/19/2024 09:45:50 PM, 06/19/2024 09:45:50 PM, fin, juego1, Inicio-Partida, Team A, Pepito, NULL
+06/19/2024 09:45:50 PM, 06/19/2024 09:45:50 PM, fin, juego1, Inicio-Juego, Team A, Pepito, NULL
+06/19/2024 09:47:46 PM, 06/19/2024 09:47:46 PM, ini, juego1, Inicio-Juego, Team B, Francisco, NULL
+06/19/2024 09:47:46 PM, 06/19/2024 09:47:46 PM, ini, juego1, Crea-Jugador, Team B, Francisco, NULL
+06/19/2024 09:47:50 PM, 06/19/2024 09:47:50 PM, ini, juego1, Inicio-Juego, Team B, Claudio, NULL
+06/19/2024 09:47:50 PM, 06/19/2024 09:47:50 PM, ini, juego1, Crea-Jugador, Team B, Claudio, NULL
+06/19/2024 09:47:50 PM, 06/19/2024 09:47:50 PM, fin, juego1, Crea-Jugador, Team B, Francisco, NULL
+06/19/2024 09:47:54 PM, 06/19/2024 09:47:54 PM, ini, juego1, Inicio-Juego, Team A, Pepito, NULL
+06/19/2024 09:47:54 PM, 06/19/2024 09:47:54 PM, ini, juego1, Crea-Jugador, Team A, Pepito, NULL
+06/19/2024 09:47:54 PM, 06/19/2024 09:47:54 PM, fin, juego1, Crea-Jugador, Team B, Claudio, NULL
+06/19/2024 09:47:58 PM, 06/19/2024 09:47:58 PM, fin, juego1, Crea-Jugador, Team A, Pepito, NULL
+06/19/2024 09:48:00 PM, 06/19/2024 09:48:00 PM, ini, juego1, Inicio-Partida, Team B, Francisco, NULL
+06/19/2024 09:48:00 PM, 06/19/2024 09:48:00 PM, ini, juego1, Inicio-Partida, Team B, Claudio, NULL
+06/19/2024 09:48:00 PM, 06/19/2024 09:48:00 PM, ini, juego1, Inicio-Partida, Team A, Pepito, NULL
+06/19/2024 09:48:00 PM, 06/19/2024 09:48:00 PM, ini, juego1, Lanzar-Dado, Team A, Pepito, NULL
+06/19/2024 09:48:02 PM, 06/19/2024 09:48:02 PM, ini, juego1, Lanzar-Dado, Team B, Claudio, NULL
+06/19/2024 09:48:04 PM, 06/19/2024 09:48:04 PM, ini, juego1, Lanzar-Dado, Team A, Pepito, NULL
+06/19/2024 09:48:06 PM, 06/19/2024 09:48:06 PM, ini, juego1, Lanzar-Dado, Team B, Francisco, NULL
+06/19/2024 09:48:08 PM, 06/19/2024 09:48:08 PM, ini, juego1, Lanzar-Dado, Team A, Pepito, NULL
+06/19/2024 09:48:10 PM, 06/19/2024 09:48:10 PM, ini, juego1, Lanzar-Dado, Team B, Claudio, NULL
+06/19/2024 09:49:58 PM, 06/19/2024 09:49:58 PM, ini, juego1, Inicio-Juego, Team B, Francisco, NULL
+06/19/2024 09:49:58 PM, 06/19/2024 09:49:58 PM, ini, juego1, Crea-Jugador, Team B, Francisco, NULL
+06/19/2024 09:50:02 PM, 06/19/2024 09:50:02 PM, ini, juego1, Inicio-Juego, Team B, Claudio, NULL
+06/19/2024 09:50:02 PM, 06/19/2024 09:50:02 PM, ini, juego1, Crea-Jugador, Team B, Claudio, NULL
+06/19/2024 09:50:03 PM, 06/19/2024 09:50:03 PM, fin, juego1, Crea-Jugador, Team B, Francisco, NULL
+06/19/2024 09:50:04 PM, 06/19/2024 09:50:04 PM, ini, juego1, Inicio-Juego, Team A, Pepito, NULL
+06/19/2024 09:50:05 PM, 06/19/2024 09:50:05 PM, ini, juego1, Crea-Jugador, Team A, Pepito, NULL
+06/19/2024 09:50:06 PM, 06/19/2024 09:50:06 PM, fin, juego1, Crea-Jugador, Team B, Claudio, NULL
+06/19/2024 09:50:09 PM, 06/19/2024 09:50:09 PM, fin, juego1, Crea-Jugador, Team A, Pepito, NULL
+06/19/2024 09:50:11 PM, 06/19/2024 09:50:11 PM, ini, juego1, Inicio-Partida, Team B, Francisco, NULL
+06/19/2024 09:50:11 PM, 06/19/2024 09:50:11 PM, ini, juego1, Inicio-Partida, Team B, Claudio, NULL
+06/19/2024 09:50:11 PM, 06/19/2024 09:50:11 PM, ini, juego1, Inicio-Partida, Team A, Pepito, NULL
+06/19/2024 09:50:11 PM, 06/19/2024 09:50:11 PM, ini, juego1, Lanzar-Dado, Team A, Pepito, NULL
+06/19/2024 09:50:13 PM, 06/19/2024 09:50:13 PM, ini, juego1, Lanzar-Dado, Team B, Claudio, NULL
+06/19/2024 09:50:15 PM, 06/19/2024 09:50:15 PM, ini, juego1, Lanzar-Dado, Team A, Pepito, NULL
+06/19/2024 09:50:17 PM, 06/19/2024 09:50:17 PM, ini, juego1, Lanzar-Dado, Team B, Francisco, NULL
+06/19/2024 09:50:19 PM, 06/19/2024 09:50:19 PM, ini, juego1, Lanzar-Dado, Team A, Pepito, NULL
+06/19/2024 09:54:28 PM, 06/19/2024 09:54:28 PM, ini, juego1, Inicio-Juego, Team B, Francisco, NULL
+06/19/2024 09:54:28 PM, 06/19/2024 09:54:28 PM, ini, juego1, Crea-Jugador, Team B, Francisco, NULL
+06/19/2024 09:54:31 PM, 06/19/2024 09:54:31 PM, ini, juego1, Inicio-Juego, Team B, Claudio, NULL
+06/19/2024 09:54:31 PM, 06/19/2024 09:54:31 PM, ini, juego1, Crea-Jugador, Team B, Claudio, NULL
+06/19/2024 09:54:32 PM, 06/19/2024 09:54:32 PM, fin, juego1, Crea-Jugador, Team B, Francisco, NULL
+06/19/2024 09:54:35 PM, 06/19/2024 09:54:35 PM, ini, juego1, Inicio-Juego, Team A, Pepito, NULL
+06/19/2024 09:54:35 PM, 06/19/2024 09:54:35 PM, ini, juego1, Crea-Jugador, Team A, Pepito, NULL
+06/19/2024 09:54:36 PM, 06/19/2024 09:54:36 PM, fin, juego1, Crea-Jugador, Team B, Claudio, NULL
+06/19/2024 09:54:39 PM, 06/19/2024 09:54:39 PM, fin, juego1, Crea-Jugador, Team A, Pepito, NULL
+06/19/2024 09:54:41 PM, 06/19/2024 09:54:41 PM, ini, juego1, Inicio-Partida, Team B, Francisco, NULL
+06/19/2024 09:54:41 PM, 06/19/2024 09:54:41 PM, ini, juego1, Inicio-Partida, Team B, Claudio, NULL
+06/19/2024 09:54:41 PM, 06/19/2024 09:54:41 PM, ini, juego1, Inicio-Partida, Team A, Pepito, NULL
+06/19/2024 09:54:41 PM, 06/19/2024 09:54:41 PM, ini, juego1, Lanzar-Dado, Team A, Pepito, NULL
+06/19/2024 09:54:43 PM, 06/19/2024 09:54:43 PM, fin, juego1, Lanzar-Dado, Team A, Pepito, 40
+06/19/2024 09:54:43 PM, 06/19/2024 09:54:43 PM, ini, juego1, Lanzar-Dado, Team B, Francisco, NULL
+06/19/2024 09:54:45 PM, 06/19/2024 09:54:45 PM, fin, juego1, Lanzar-Dado, Team B, Francisco, 37
+06/19/2024 09:54:45 PM, 06/19/2024 09:54:45 PM, ini, juego1, Lanzar-Dado, Team A, Pepito, NULL
+06/19/2024 09:54:47 PM, 06/19/2024 09:54:47 PM, fin, juego1, Lanzar-Dado, Team A, Pepito, 40
+06/19/2024 09:54:47 PM, 06/19/2024 09:54:47 PM, ini, juego1, Lanzar-Dado, Team B, Claudio, NULL
+06/19/2024 09:54:49 PM, 06/19/2024 09:54:49 PM, fin, juego1, Lanzar-Dado, Team B, Claudio, 25
+06/19/2024 09:54:49 PM, 06/19/2024 09:54:49 PM, ini, juego1, Lanzar-Dado, Team A, Pepito, NULL
+06/19/2024 09:54:51 PM, 06/19/2024 09:54:51 PM, fin, juego1, Lanzar-Dado, Team A, Pepito, 39
+06/19/2024 09:54:51 PM, 06/19/2024 09:54:51 PM, fin, juego1, Inicio-Partida, Team B, Francisco, NULL
+06/19/2024 09:54:51 PM, 06/19/2024 09:54:51 PM, fin, juego1, Inicio-Juego, Team B, Francisco, NULL
+06/19/2024 09:54:51 PM, 06/19/2024 09:54:51 PM, fin, juego1, Inicio-Partida, Team B, Claudio, NULL
+06/19/2024 09:54:51 PM, 06/19/2024 09:54:51 PM, fin, juego1, Inicio-Juego, Team B, Claudio, NULL
+06/19/2024 09:54:51 PM, 06/19/2024 09:54:51 PM, fin, juego1, Inicio-Partida, Team A, Pepito, NULL
+06/19/2024 09:54:51 PM, 06/19/2024 09:54:51 PM, fin, juego1, Inicio-Juego, Team A, Pepito, NULL
