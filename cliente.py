@@ -94,7 +94,7 @@ def inicio():
     global TEAM_NAME
     global PLAYER_NAME
     global juego
-    app_logger.info('%s, %s, %s', juego, TEAM_NAME, PLAYER_NAME)
+    app_logger.info('%s, %s, %s, %s', "ini", juego, TEAM_NAME, PLAYER_NAME)
     #logging.info('%s, %s, %s', juego, TEAM_NAME, PLAYER_NAME)
     teams = get_teams()
     print("TEAMS : ",teams)
@@ -127,6 +127,7 @@ def game_ended():
     ganador = request.json['ganador']
     print("The winner is ", ganador)
     print("Thanks for playing!")
+    app_logger.info('%s, %s, %s, %s', "fin", juego, TEAM_NAME, PLAYER_NAME)
     return jsonify({'message':'BYE'}) 
 
 with app.app_context():
